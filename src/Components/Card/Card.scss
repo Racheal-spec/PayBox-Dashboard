@@ -1,0 +1,16 @@
+.card-info{
+    display: flex;
+    .card{
+        margin: 0 10px;
+        background-color: rgb(241, 244, 247);
+        padding: 10px 13px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(223, 225, 226, 0.692);
+        .icon{
+            display: flex;
+            justify-content: space-between;
+            color: #307ff5cc;
+            cursor: pointer;
+        }
+    }
+}

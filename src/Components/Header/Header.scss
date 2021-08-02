@@ -1,0 +1,39 @@
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #f4f5f8;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    .header-container1{
+        display: flex;
+        align-items: center;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .logo{
+            img{
+             width: 70%;
+             height: 100%;
+            }
+         }
+         .avatar-text{
+             font-weight: 500;
+         }
+    }
+
+    .header-container2{
+        display: flex;
+       
+        .header-icon{
+            margin: 0 5px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color:rgb(244, 248, 252);
+    position: sticky;
+    top: 30px;
+    height: 100vh;
+    ul{
+        list-style: none;
+        h5{
+            color: #b6b8bb;
+        }
+        .navmenu{
+            display: inline-flex;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 13px 0;
+            color: #4f5050;
+            transition: all 0.3s ease-out;
+            &:hover{
+                background-color: #ecece9;
+                padding: 7px 15px;
+                border-radius: 10px;
+            }
+          li{
+            margin: 0 10px;
+          }
+        }
+    }
+}
