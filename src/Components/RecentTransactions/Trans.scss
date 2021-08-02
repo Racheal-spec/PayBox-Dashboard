@@ -1,0 +1,20 @@
+.trans{
+    color: #4f5050;
+    .trans-list1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            font-size: 17px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    }
+    hr{
+        border: 1px solid rgba(241, 235, 227, 0.856);
+        border-bottom: none;
+    }
+}

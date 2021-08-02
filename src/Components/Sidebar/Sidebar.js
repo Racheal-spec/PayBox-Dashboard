@@ -7,7 +7,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
            <ul>
-           <h5>Dashboard</h5>
+           <h4>Dashboard</h4>
                  <Link to="/" className="navmenu" >
                  <Home />
                     <li>Home</li>
