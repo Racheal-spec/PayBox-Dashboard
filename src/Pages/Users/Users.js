@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Users.scss';
 import { DataGrid } from "@material-ui/data-grid";
 import {DeleteOutline} from '@material-ui/icons';
-import {Link} from 'react-router-dom';
 import {userRows} from '../../DummyData';
 
 
@@ -46,9 +45,6 @@ const handleDel = (id) => {
       renderCell: (params) => {
         return(
           <>
-         <Link to= {"/user/" + params.row.id} >
-         <button className="edit-btn" >Edit</button>
-         </Link>
         <DeleteOutline className="delete-btn" onClick={() => handleDel(params.row.id)} />
           </>
         )

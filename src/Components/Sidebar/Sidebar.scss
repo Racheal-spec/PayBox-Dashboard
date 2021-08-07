@@ -13,10 +13,10 @@
             color: #b6b8bb;
         }
         .navmenu{
-            display: inline-flex;
+            display: flex;
             text-decoration: none;
             font-weight: 500;
-            margin: 13px 0;
+            margin: 24px 0;
             color: #4f5050;
             transition: all 0.3s ease-out;
             &:hover{

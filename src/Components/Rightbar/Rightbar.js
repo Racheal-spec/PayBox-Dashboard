@@ -7,7 +7,7 @@ import {Add} from '@material-ui/icons';
 function Rightbar() {
     return (
         <div className="rightbar">
-            <img src={CreditCard} alt="credit card" />
+            <img className="card-img" src={CreditCard} alt="credit card" />
             <div className="btn-div">
                 <button>
                     <Add />
