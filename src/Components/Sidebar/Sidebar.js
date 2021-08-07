@@ -10,23 +10,23 @@ function Sidebar() {
            <h4>Dashboard</h4>
                  <Link to="/" className="navmenu" >
                  <Home />
-                    <li>Home</li>
+                    <li>Home Page</li>
                  </Link>
-                 <Link to="/" className="navmenu">
-                 <Timeline />
-                    <li>Analytics</li>
-                 </Link>
-                 <Link to="/" className="navmenu">
+                 <Link to="/users" className="navmenu">
                  <People />
                     <li>Users</li>
+                 </Link>
+                 <Link to="/" className="navmenu">
+                 <History />
+                    <li>History</li>
                  </Link>
                  <Link to="/" className="navmenu">
                  <Payment />
                     <li>Transactions</li>
                  </Link>
                  <Link to="/" className="navmenu">
-                 <History />
-                    <li>History</li>
+                 <Timeline />
+                    <li>Analytics</li>
                  </Link>
                  <Link to="/" className="navmenu">
                  <Receipt />

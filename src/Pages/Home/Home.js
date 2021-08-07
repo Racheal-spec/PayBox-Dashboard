@@ -8,7 +8,7 @@ function Home() {
     return (
         <div className="home">
             <Card />
-            <Charts />
+            <Charts title="Your Account Analysis" datakey="amt" />
             <Trans />
         </div>
     )

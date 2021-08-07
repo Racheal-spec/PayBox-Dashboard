@@ -24,7 +24,7 @@ function Trans() {
             <hr />
             <div className="trans-list1">
                 <img src={avatar1} alt="avatar1" />
-                <p>License payment</p>
+                <p>License</p>
                 <p>8:52pm</p>
                 <p>20000naira</p>
                 <p>completed</p>
