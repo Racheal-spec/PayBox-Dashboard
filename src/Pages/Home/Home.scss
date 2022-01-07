@@ -1,6 +1,12 @@
-.home{
-    padding: 30px 20px;
+.home {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 7;
+  height: 100%;
+  .home-card {
     display: flex;
-    flex-direction: column;
-    flex: 7;
+    flex-grow: 2;
+    flex-wrap: wrap;
+  }
 }

@@ -1,48 +1,51 @@
-.rightbar{
-    background-color:rgb(244, 248, 252);
-    position: sticky;
-    top: 50px;
-    height: 100%;
-    flex: 3;
-    .card-img{
-        max-width: 90%;
+.rightbar {
+  background-color: rgb(244, 248, 252);
+  position: sticky;
+  top: 50px;
+  height: 100vh;
+  flex: 3;
+  .card-img {
+    max-width: 93%;
+    padding: 0 10px;
+    filter: drop-shadow(3px 5px 9px #555454be);
+    @media screen and (max-width: 600px) {
+      max-width: 97%;
+    }
+  }
+  h3 {
+    padding: 10px 20px;
+    color: #4f5050;
+  }
+  .pending-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px;
+    .list1 {
+      display: flex;
+      align-items: center;
+      img {
+        width: 25%;
+        height: 25%;
         padding: 0 10px;
-        filter: drop-shadow(3px 5px 9px #555454be);
+        border-radius: 50%;
+      }
     }
-    h3{
-        padding: 0 20px;
-        color: #4f5050;
+    .list2 {
+      p {
+        font-size: 17px;
+      }
     }
-    .pending-list{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 10px;
-        .list1{
-            display: flex;
-            align-items: center;
-            img{
-                width: 30px;
-                height: 30px;
-                border-radius: 50%;
-                padding: 0 10px;
-            }
-        }
-       .list2{
-        p{
-            font-size: 17px;
-        }
-       }
+  }
+  .btn-div {
+    margin: 20px 20px;
+    button {
+      width: 100%;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
     }
-    .btn-div{
-        margin: 20px 20px;
-        button{
-            width: 100%;
-            height: 40px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-        }
-    }
+  }
 }

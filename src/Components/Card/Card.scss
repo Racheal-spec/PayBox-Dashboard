@@ -1,16 +1,27 @@
-.card-info{
-    display: flex;
-    .card{
-        margin-right: 16px;
-        background-color: rgb(241, 244, 247);
-        padding: 10px 14px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px rgba(223, 225, 226, 0.692);
-        .icon{
-            display: flex;
-            justify-content: space-between;
-            color: #1c6ce4cc;
-            cursor: pointer;
-        }
+.card-info {
+  display: flex;
+  @media screen and(max-width: 600px) {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin-right: 16px;
+    background-color: rgb(241, 244, 247);
+    padding: 13px 14px;
+    border-radius: 5px;
+    width: 23.3%;
+    box-shadow: 5px 5px 5px rgba(223, 225, 226, 0.692);
+    @media screen and(max-width: 600px) {
+      width: 43%;
+      margin: 10px;
     }
+    p {
+      padding: 10px 0;
+    }
+    .icon {
+      display: flex;
+      justify-content: space-between;
+      color: #0059ff;
+      cursor: pointer;
+    }
+  }
 }
