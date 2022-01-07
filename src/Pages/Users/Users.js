@@ -56,7 +56,6 @@ function Users() {
   return (
     <div className="users">
       <h2>Users</h2>
-
       <DataGrid
         rows={data}
         columns={columns}
