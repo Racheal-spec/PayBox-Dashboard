@@ -4,7 +4,7 @@ Paybox is fintech app dashboard built with React js.
 
 Live Demo: https://paybox-dashboard.netlify.app/
 
-<img src="dashboard-screenshot" alt="paybox" />
+<img src="dashboard-screenshot.jpg" alt="paybox" />
 
 ## Tech/Framework Used
 
