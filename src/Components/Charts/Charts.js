@@ -1,8 +1,6 @@
 import React from "react";
 import "./Charts.scss";
 import {
-  LineChart,
-  Line,
   XAxis,
   YAxis,
   CartesianGrid,
